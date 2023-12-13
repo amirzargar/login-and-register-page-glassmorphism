@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(../images/bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.box{
+    display: flex;
+    position: relative;
+    padding: 60px 20px 30px;
+    height: 550px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 30px;
+    backdrop-filter: blur(7px);
+    border:3px solid rgba(255,255,255,0.2)
+}
+.box2{
+    display: flex;
+    position: relative;
+    padding: 60px 20px 30px;
+    height: 620px;
+    width: 350px;
+    background-color: transparent;
+    border-radius: 30px;
+    backdrop-filter: blur(7px);
+    border:3px solid rgba(255,255,255,0.2)
+
+}
+
+.social-icons{
+    position: absolute;
+    font-size: 25px;
+    top:40px;
+    left:32%;
+    letter-spacing: 10px;
+}
+
+.social-icons2{
+    position: absolute;
+    font-size: 25px;
+    top: 20px;
+    left:32%;
+    letter-spacing: 10px;
+}
+
+
+.social-icons a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.social-icons2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.social-icons i:hover{
+    color: white;
+    cursor: pointer;
+    font-size: 26px;
+    transition: 0.3s ease-in-out;
+}
+
+.social-icons2 i:hover{
+    color: white;
+    cursor: pointer;
+    font-size: 26px;
+    transition: 0.3s ease-in-out;
+}
+
+.box-login{
+    position: absolute;
+    width: 85%;
+    left:27px;
+    transition: 0.3s ease;
+
+}
+.box-register{
+    position: absolute;
+    width: 85%;
+    bottom:35px;
+    transition: 0.5s ease;
+    text-align: center;
+    
+}
+.top-header {
+    text-align: center;
+    margin: 30px 0;
+    
+}
+
+.top-header h3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.top-header h3:hover{
+    font-size: 23px;
+    color: white;
+ 
+
+}
+
+.top-header small:hover{
+    font-size: 0.9em;
+    color: white;
+
+}
+
+
+.input-field{
+    margin: 12px 0;
+    position: relative;
+    
+}
+
+.input-box{
+    width: 100%;
+    height: 50px;
+    font-size:15px ;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding: 7px 45px 0 20px;
+    background: rgba(174, 166, 248, 0.6);
+    backdrop-filter: blur (5px);
+    outline: none;
+}
+
+#fname{
+    width: 100%;
+    height: 45px;
+    font-size:13px ;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    background: rgba(174, 166, 248, 0.6);
+    backdrop-filter: blur (5px);
+    outline: none;
+
+}
+
+.input-field label{
+    position: absolute;
+    top:15px;
+    left:30px;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.input-box:focus ~ label,
+.input-box:valid ~ label{
+    top:2px;
+    font-size: 8px;
+    color: rgb(15, 1, 1);
+    font-weight: 500;
+
+}
+
+.remember :hover{
+
+    font-size: 0.9em;
+    color: aliceblue;
+}
+
+.input-submit{
+    width: 100%;
+    height: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    background: linear-gradient(145deg, rgb(116, 92, 155), white);
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.input-submit:hover{
+    font-size: 17px;
+    color: white;
+    box-shadow: rgba(41, 0, 0,0.7 );
+}
+
+.forgot{
+    text-align: center;
+    font-size: 15px;
+}
+.forgot a{
+    text-decoration: none;
+    color: black;
+}
+
+.forgot a:hover{
+    color:red;
+}
+#new-user{
+    font-family: cursive;
+    font-size: 15px;
+    padding: 10px  0;
+    margin: 10px 0;
+    font-weight: 700;
+}
